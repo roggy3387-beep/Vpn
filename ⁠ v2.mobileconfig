@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- បញ្ចូលព័ត៌មានលម្អិតនៃ DNS Profile -->
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Panel Azul Glow - High Speed VIP DNS Configuration</string>
+            <key>PayloadDisplayName</key>
+            <string>Panel Azul Glow DNS</string>
+            <key>PayloadIdentifier</key>
+            <string>com.azul.glow.dns.profile</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>DNSSettings</key>
+            <dict>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>1.1.1.1</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Panel Azul Glow VIP Profile for Secure & Fast Connection.</string>
+    <key>PayloadDisplayName</key>
+    <string>Panel Azul Glow</string>
+    <key>PayloadIdentifier</key>
+    <string>com.azul.glow.config</string>
+    <key>PayloadOrganization</key>
+    <string>Azul Glow Security</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>12345678-ABCD-EF01-2345-6789ABCDEF01</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
